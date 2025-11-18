@@ -4,6 +4,9 @@
   import path from 'path';
 
   export default defineConfig({
+
+    base: '/GrandmothermoonsteachingappTest/',
+    
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
